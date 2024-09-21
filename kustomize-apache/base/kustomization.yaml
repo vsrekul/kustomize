@@ -1,6 +1,6 @@
 resources:
   - deployment.yaml
-  - service.yaml
-  - configmap.yaml  # Include ConfigMap if you create one for index.html
+  - service.yml
+  - configmap.yml  # Include ConfigMap if you create one for index.html
 
 
