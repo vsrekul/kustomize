@@ -4,5 +4,4 @@ resources:
 patches:
   - patch-deployment.yaml
 
-labels:
-  environment: dev
+
