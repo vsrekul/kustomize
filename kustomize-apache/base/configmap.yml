@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: apache-index
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Welcome to Apache!</title>
+    </head>
+    <body>
+        <h1>Hello, Apache Server!</h1>
+        <p>This page is served by a custom Docker image.</p>
+    </body>
+    </html>

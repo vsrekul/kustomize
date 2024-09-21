@@ -1,12 +1,8 @@
-bases:
-- ../../base
-
 resources:
-- index.html
+  - ../../base
 
-patchesStrategicMerge:
-- patch-deployment.yaml
+patches:
+  - patch-deployment.yaml
 
-commonLabels:
-  app: apache
+labels:
   environment: dev
