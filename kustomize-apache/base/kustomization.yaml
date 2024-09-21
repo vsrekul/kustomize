@@ -4,6 +4,3 @@ resources:
   - configmap.yaml  # Include ConfigMap if you create one for index.html
 
 
-labels:
-  app: apache
-  environment: dev
