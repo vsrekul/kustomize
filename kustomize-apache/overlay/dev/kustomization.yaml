@@ -7,6 +7,6 @@ resources:
 patchesStrategicMerge:
   - patch-deployment.yaml
 
-commonLabels:
+labels:
   app: apache
   environment: dev
