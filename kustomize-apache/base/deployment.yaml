@@ -10,8 +10,8 @@ spec:
   template:
     metadata:
       labels:
-        app: apache
-        environment: dev  # You can still include labels here
+        app: apache  # This label is specific to this Deployment
+        # The environment label will be added by Kustomize
     spec:
       containers:
         - name: apache

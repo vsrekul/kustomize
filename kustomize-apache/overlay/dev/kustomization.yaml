@@ -3,5 +3,10 @@ resources:
 
 patches:
   - patch-deployment.yaml
+  - kustomization.yaml
+
+labels: 
+  app: apache
+  environment: dev
 
 
